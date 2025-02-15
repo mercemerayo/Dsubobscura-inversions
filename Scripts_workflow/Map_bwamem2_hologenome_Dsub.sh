@@ -2,11 +2,11 @@
 
 # Index and align reads using bwa-mem2 with the D. subobscura hologenome
 HOLOGENOME=$1
-STRAIN=$2
+STRAIN=$2 # Strain name
 SEQ_NGS_R1=$3
 SEQ_NGS_R2=$4
-LIBRARY=$5
-PLUNIT=$6
+LIBRARY=$5 # Library preparation used for sequencing
+PLUNIT=$6 # Platformo Unit
 
 # Index the hologenome
 echo "Indexing the hologenome with bwa-mem2..."
