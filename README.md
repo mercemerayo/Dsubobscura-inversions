@@ -2,7 +2,11 @@
 
 ## Overview
 
-The aim of this GitHub repository is to provide a bioinformatics pipeline for detecting chromosomal inversions in *Drosophila subobscura* using whole-genome sequencing (WGS) data from Illumina paired-end reads. This pipeline performs read quality control, mapping, structural variant detection, and breakpoint identification.
+The aim of this GitHub repository is to provide a bioinformatics pipeline for detecting chromosomal inversions in *Drosophila subobscura* using whole-genome sequencing (WGS) data from Illumina paired-end reads. 
+
+## Quality control, mapping, structural variant detection, and breakpoint identification
+
+This pipeline performs read quality control, mapping, structural variant detection, and breakpoint identification.
 
 The workflow follows these main steps:
 
