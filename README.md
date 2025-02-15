@@ -2,7 +2,7 @@
 
 ## Overview
 
-The aim of this GitHub repository is to provide a bioinformatics pipeline for detecting chromosomal inversions in *Drosophila subobscura* using whole-genome sequencing (WGS) data. This pipeline performs read quality control, mapping, structural variant detection, and breakpoint identification.
+The aim of this GitHub repository is to provide a bioinformatics pipeline for detecting chromosomal inversions in *Drosophila subobscura* using whole-genome sequencing (WGS) data from Illumina paired-end reads. This pipeline performs read quality control, mapping, structural variant detection, and breakpoint identification.
 
 The workflow follows these main steps:
 
@@ -18,9 +18,12 @@ The workflow follows these main steps:
 
 ## **Further Analysis: Extracting and assembling Reads from breakpoint regions**
 
-Once the regions of interest have been identified from structural variant detection, the next step is to extract and assemble reads from these breakpoint regions. This is done using the script [`contigs_search_BP_regions_Dsub.sh`](scripts/contigs_search_BP_regions_Dsub.sh).
-**Purpose:**  
-  - Extracts reads mapped to the identified breakpoint regions.
-  - Retrieves discordant reads that may indicate chromosomal rearrangements.
-  - Performs de novo assembly of breakpoint regions to identify potential inversion events.
+Once the regions of interest have been identified from structural variant detection, the next step is to extract and assemble reads from these breakpoint regions.
 
+**Purpose:**  
+  - Extract reads mapped to the identified breakpoint regions.
+  - Retrieve discordant reads that may indicate chromosomal rearrangements.
+  - Perform de novo assembly of breakpoint regions to identify potential inversion events.
+  - Align contigs to the refernce genome to identify breakpoint regions. 
+
+![De novo assembly Workflow](images/Workflow_contigs.jpg)
