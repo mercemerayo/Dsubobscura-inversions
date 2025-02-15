@@ -7,7 +7,7 @@ The script `contigs_search_BP_regions_Dsub.sh` extracts, assembles, and analyzes
 1. **Extraction of reads from breakpoint regions** using `Samtools`. Properly mapped and discordant reads (where one end is mapped, but the other is not) are retrieved separately.
 2. **Merging of extracted reads** into a single BAM file and sorting by read name.
 3. **Conversion of BAM to FASTQ** to extract forward, reverse, and singleton reads.
-4. **Retrieval of unmapped reads** from the original cleaned FASTQ files.
+4. **Retrieval of unmapped reads** from the original cleaned FASTQ files (after `fastp` processing).
 5. **De novo assembly of extracted reads** using `SPAdes` to reconstruct breakpoint-associated sequences.
 6. **Alignment of assembled contigs** against the reference genome using `BLAST`.
 7. **Filtering of BLAST results** to include only alignments matching the expected chromosome.
@@ -28,7 +28,11 @@ The script requires the following input files:
 
 ## **Usage**
 ```bash
-bash contigs_search_BP_regions_Dsub.sh <FLANKING_WINDOWS_FILE> <R1_fastq.gz> <R2_fastq.gz> <BAM_ALIGNMENT> <REFERENCE_GENOME>
+./contigs_search_BP_regions_Dsub.sh <FLANKING_WINDOWS_FILE> <R1_fastq.gz> <R2_fastq.gz> <BAM_ALIGNMENT> <REFERENCE_GENOME>
+```
+**Example:**
+```bash
+./contigs_search_BP_regions_Dsub.sh flanking_windows.txt OF58_R1.fastq.gz OF58_R2.fastq.gz OF58_markdup_bwamem2.bam Drosophila_subobscura_ref_genome.fa
 ```
 
 ## **Requirements**
