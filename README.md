@@ -26,4 +26,4 @@ Once the regions of interest have been identified from structural variant detect
   - Perform de novo assembly of breakpoint regions to identify potential inversion events.
   - Align contigs to the refernce genome to identify breakpoint regions. 
 
-![De novo assembly Workflow](images/Workflow_contigs.jpg)
+![De novo assembly Workflow](images/Workflow_assembly.jpg)
