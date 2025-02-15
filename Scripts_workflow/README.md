@@ -32,6 +32,36 @@ This pipeline follows these main steps:
 
 Each step generates key output files that contribute to detecting chromosomal inversions in *Drosophila subobscura*.
 
-### Requirements:
+## **Requirements**
+To run this pipeline, ensure the following tools are installed:
+
+- **`fastp`**: Quality control and filtering of sequencing reads.  
+  - Installation: [https://anaconda.org/bioconda/fastp](https://anaconda.org/bioconda/fastp)  
+
+- **`bwa-mem2`**: Mapping reads to the reference genome.  
+  - Installation: [https://anaconda.org/bioconda/bwa-mem2](https://anaconda.org/bioconda/bwa-mem2)  
+
+- **`Samtools`**: Processing and manipulation of SAM/BAM files.  
+  - Installation: [https://anaconda.org/bioconda/samtools](https://anaconda.org/bioconda/samtools)  
+
+- **`Breakdancer`**: Detection of structural variants and breakpoints.  
+  - Installation: [https://anaconda.org/bioconda/breakdancer](https://anaconda.org/bioconda/breakdancer)  
+
+- **`SPAdes`**: De novo genome assembly for breakpoint analysis.  
+  - Installation: [https://anaconda.org/bioconda/spades](https://anaconda.org/bioconda/spades)  
+
+- **`BLAST`**: Alignment of contigs to the reference genome.  
+  - Installation: [https://anaconda.org/bioconda/blast](https://anaconda.org/bioconda/blast)  
+
+
+## **Manuals and References**
+For further details on each tool, refer to the official documentation:
+
+- **`fastp`**: [https://github.com/OpenGene/fastp](https://github.com/OpenGene/fastp)  
+- **`bwa-mem2`**: [https://github.com/bwa-mem2/bwa-mem2](https://github.com/bwa-mem2/bwa-mem2)  
+- **`Samtools`**: [https://www.htslib.org/doc/samtools.html](https://www.htslib.org/doc/samtools.html)  
+- **`Breakdancer`**: [https://gmt.genome.wustl.edu/packages/breakdancer](https://gmt.genome.wustl.edu/packages/breakdancer)  
+- **`SPAdes`**: [https://cab.spbu.ru/software/spades/](https://cab.spbu.ru/software/spades/)  
+- **`BLAST`**: [https://www.ncbi.nlm.nih.gov/books/NBK279690/](https://www.ncbi.nlm.nih.gov/books/NBK279690/)  
 
 
