@@ -20,11 +20,17 @@ The script requires the following input files:
  ```bash
   Window_ID  Output_Folder  Chromosome_ID  Proximal_Start  Proximal_End  Distal_Start  Distal_End
 ```
-- **Example:**
+**Example:**
   ```bash
   win_1  assembly_win_1  NC_048534.1  7772887  7778000  14722000  14727000
   win_2  assembly_win_2  NC_048534.1  8001234  8010000  14567890  14573000
   ```
+- **Cleaned Illumina sequencing reads** in FASTQ format (R1_fastq.gz, R2_fastq.gz).
+
+- **Processed BAM file** containing mapped reads.
+
+- **Reference genome** in FASTA format.
+
 
 ## **Usage**
 ```bash
