@@ -47,12 +47,6 @@ To run this pipeline, ensure the following tools are installed:
 - **`Breakdancer`**: Detection of structural variants and breakpoints.  
   - Installation: [https://anaconda.org/bioconda/breakdancer](https://anaconda.org/bioconda/breakdancer)  
 
-- **`SPAdes`**: De novo genome assembly for breakpoint analysis.  
-  - Installation: [https://anaconda.org/bioconda/spades](https://anaconda.org/bioconda/spades)  
-
-- **`BLAST`**: Alignment of contigs to the reference genome.  
-  - Installation: [https://anaconda.org/bioconda/blast](https://anaconda.org/bioconda/blast)  
-
 
 ## **Manuals and References**
 For further details on each tool, refer to the official documentation:
@@ -61,7 +55,6 @@ For further details on each tool, refer to the official documentation:
 - **`bwa-mem2`**: [https://github.com/bwa-mem2/bwa-mem2](https://github.com/bwa-mem2/bwa-mem2)  
 - **`Samtools`**: [https://www.htslib.org/doc/samtools.html](https://www.htslib.org/doc/samtools.html)  
 - **`Breakdancer`**: https://github.com/genome/breakdancer
-- **`SPAdes`**: https://home.cc.umanitoba.ca/~psgendb/doc/spades/manual.html 
-- **`BLAST`**: https://www.animalgenome.org/bioinfo/resources/manuals/blast2.2.24/user_manual.pdf 
+
 
 
