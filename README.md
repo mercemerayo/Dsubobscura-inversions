@@ -12,3 +12,6 @@ The workflow follows these main steps:
 4. SAM/BAM processing: The mapped reads undergo post-processing with samtools (sorting, fixing mates, removing duplicates, and indexing).
 5. Structural variant detection: Structural variants and breakpoints are identified using Breakdancer.
 6. Filtering and analysis of inversions: The results are analyzed to determine potential chromosomal inversions.
+
+
+![Pipeline Workflow](images/Workflow_BP.png)
