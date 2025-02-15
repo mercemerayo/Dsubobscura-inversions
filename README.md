@@ -27,6 +27,6 @@ Once the regions of interest have been identified from structural variant detect
   - Extract reads mapped to the identified breakpoint regions.
   - Retrieve discordant reads that may indicate chromosomal rearrangements.
   - Perform de novo assembly of breakpoint regions to identify potential inversion events.
-  - Align contigs to the refernce genome to identify breakpoint regions. 
+  - Align contigs to the reference genome to identify breakpoint regions. 
 
 ![De novo assembly Workflow](images/Workflow_assembly.jpg)
