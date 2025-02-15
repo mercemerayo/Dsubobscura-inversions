@@ -61,7 +61,7 @@ For further details on each tool, refer to the official documentation:
 - **`bwa-mem2`**: [https://github.com/bwa-mem2/bwa-mem2](https://github.com/bwa-mem2/bwa-mem2)  
 - **`Samtools`**: [https://www.htslib.org/doc/samtools.html](https://www.htslib.org/doc/samtools.html)  
 - **`Breakdancer`**: https://github.com/genome/breakdancer
-- **`SPAdes`**: [https://cab.spbu.ru/software/spades/](https://cab.spbu.ru/software/spades/)  
-- **`BLAST`**: [https://www.ncbi.nlm.nih.gov/books/NBK279690/](https://www.ncbi.nlm.nih.gov/books/NBK279690/)  
+- **`SPAdes`**: https://home.cc.umanitoba.ca/~psgendb/doc/spades/manual.html 
+- **`BLAST`**: https://www.animalgenome.org/bioinfo/resources/manuals/blast2.2.24/user_manual.pdf 
 
 
