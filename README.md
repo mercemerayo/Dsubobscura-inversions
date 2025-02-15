@@ -14,4 +14,4 @@ The workflow follows these main steps:
 6. Filtering and analysis of inversions: The results are analyzed to determine potential chromosomal inversions.
 
 
-![Pipeline Workflow](images/Workflow_BP.png)
+![Pipeline Workflow](images/Workflow_BP.jpg)
