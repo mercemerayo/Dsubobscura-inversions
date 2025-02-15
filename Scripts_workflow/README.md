@@ -31,3 +31,7 @@ This pipeline follows these main steps:
      ```
 
 Each step generates key output files that contribute to detecting chromosomal inversions in *Drosophila subobscura*.
+
+### Requirements:
+
+
