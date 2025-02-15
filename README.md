@@ -15,3 +15,12 @@ The workflow follows these main steps:
 
 
 ![Pipeline Workflow](images/Workflow_BP.jpg)
+
+## **Further Analysis: Extracting and assembling Reads from breakpoint regions**
+
+Once the regions of interest have been identified from structural variant detection, the next step is to extract and assemble reads from these breakpoint regions. This is done using the script [`contigs_search_BP_regions_Dsub.sh`](scripts/contigs_search_BP_regions_Dsub.sh).
+**Purpose:**  
+  - Extracts reads mapped to the identified breakpoint regions.
+  - Retrieves discordant reads that may indicate chromosomal rearrangements.
+  - Performs de novo assembly of breakpoint regions to identify potential inversion events.
+
