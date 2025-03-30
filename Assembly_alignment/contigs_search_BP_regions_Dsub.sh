@@ -38,7 +38,6 @@ while IFS=$'\t' read -r ID_window output_folder ID_chr proximal_start proximal_e
  samtools sort -n -o "${reads_folder}/${ID_window}_final_sorted.bam" "${reads_folder}/${ID_window}_final.bam"
 
 # Split the reads into FASTQ files to extract singletons and get the unmapped reads from the original fastq files (cleaned)
-
  samtools fastq -1 "${reads_folder}/${ID_window}_R1.fastq" -2 "${reads_folder}/${ID_window}_R2.fastq" \
  -s "${reads_folder}/${ID_window}_singles.fastq" "${reads_folder}/${ID_window}_final_sorted.bam"
 
@@ -53,7 +52,6 @@ while IFS=$'\t' read -r ID_window output_folder ID_chr proximal_start proximal_e
  sed '/^--/d' "${reads_folder}/unmapped_R2.fastq" > "${reads_folder}/clean_unmapped_R2.fastq"
 
 # Combine retrieved reads into final input files R1 and R2 for SPAdes
-  
  cat "${reads_folder}/${ID_window}_R1.fastq" "${reads_folder}/clean_unmapped_R1.fastq" > "${reads_folder}/${ID_window}_final_R1.fastq"
  cat "${reads_folder}/${ID_window}_R2.fastq" "${reads_folder}/clean_unmapped_R2.fastq" > "${reads_folder}/${ID_window}_final_R2.fastq"
 
